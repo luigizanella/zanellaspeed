@@ -244,7 +244,7 @@ export default function Home() {
           </div>
         </main>
 
-        <footer className="mt-8 pt-6 pb-4 border-t border-gray-200 dark:border-gray-800 text-center">
+        <footer className="mt-8 py-9 border-t border-gray-200 dark:border-gray-800 text-center">
           <p className="text-xs text-gray-400">ZanellaSpeed · Powered by Google PageSpeed Insights · Feito por Luigi Zanella</p>
         </footer>
       </div>
