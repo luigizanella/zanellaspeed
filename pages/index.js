@@ -194,27 +194,6 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Features strip */}
-          <div className="border-y border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900">
-            <div className="max-w-screen-xl mx-auto px-4 sm:px-6 py-4">
-              <div className="flex flex-wrap justify-center gap-6">
-                {[
-                  { icon: '🚀', label: 'Diagnóstico Rápido' },
-                  { icon: '⭐', label: 'Core Web Vitals' },
-                  { icon: '≋', label: 'Cascata de Recursos' },
-                  { icon: '🎬', label: 'Carregamento Visual' },
-                  { icon: '🎯', label: 'Elemento LCP' },
-                  { icon: '💡', label: 'Oportunidades' },
-                  { icon: '📱', label: 'Mobile + Desktop' },
-                ].map(f => (
-                  <div key={f.label} className="flex items-center gap-2 text-sm text-gray-500 dark:text-gray-400">
-                    <span>{f.icon}</span> {f.label}
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-
           {/* History */}
           <div className="max-w-screen-xl mx-auto px-4 sm:px-6 py-8">
             {history.length > 0 ? (
