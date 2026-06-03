@@ -130,7 +130,7 @@ export default function Home() {
           {/* Hero */}
           <div className="relative overflow-hidden">
             {/* Background */}
-            <div className="absolute inset-0 bg-gradient-to-br from-[#2E3DF0]/5 via-transparent to-transparent dark:from-[#2E3DF0]/10" />
+            <div className="absolute inset-0" />
             <div className="absolute top-20 left-1/2 -translate-x-1/2 w-96 h-96 bg-[#2E3DF0]/5 rounded-full blur-3xl pointer-events-none" />
 
             <div className="relative max-w-3xl mx-auto px-4 sm:px-6 pt-16 pb-12 text-center">
